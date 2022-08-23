@@ -11,27 +11,33 @@ Bayesian optimization (BO) allows us to tune parameters in relatively few iterat
 As you iterate over and over, the algorithm balances its needs of exploration and exploitation taking into account what it knows about the target function. At each step a Gaussian Process is fitted to the known samples (points previously explored), and the posterior distribution, combined with a exploration strategy (such as UCB (Upper Confidence Bound), or EI (Expected Improvement)), are used to determine the next point that should be explored
 
 Tools:
+
 - https://ax.dev/docs/bayesopt.html
 - https://botorch.org/v/0.2.3/tutorials/fit_model_with_torch_optimizer
 - https://github.com/fmfn/BayesianOptimization
 - https://www.borealisai.com/en/blog/tutorial-8-bayesian-optimization/
 
-Good Reads: 
+Good Reads:
+
 - https://distill.pub/2020/bayesian-optimization/
 - https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote15.html
 - https://distill.pub/2020/bayesian-optimization/
 
 Exploitation vs Exploration:
+
 - https://github.com/fmfn/BayesianOptimization/blob/master/examples/exploitation_vs_exploration.ipynb
 
 Visualization:
+
 - https://philipperemy.github.io/visualization/
 
 Design of Experiments
+
 - https://danmackinlay.name/notebook/design_of_experiments.html
 - https://towardsdatascience.com/design-optimization-with-ax-in-python-957b1fec776f
 
 Others:
+
 - https://www.youtube.com/watch?v=BQ4kVn-Rt84&ab_channel=paretos
 - https://towardsdatascience.com/understanding-gaussian-process-the-socratic-way-ba02369d804
 - https://blog.dominodatalab.com/fitting-gaussian-process-models-python
